@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <button id="changeText">Click me</button>
+    <p id="text">Hello, World!</p>
+
+    <script>
+        // Tambahan event ke tombol
+        document.getElementById("changeText").addEventListener("click", function() {
+            document.getElementById("text").textContent = "Hello, .Net Developer!";
+        });
+    </script>
+</body>
+</html>

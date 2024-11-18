@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A_APITest", "A_APITest", "{1F89BBA4-B213-42F9-AC90-7956A03311F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkasiaUserTest.Domain", "AkasiaUserTest.Data\AkasiaUserTest.Domain.csproj", "{66D3281C-3128-4D12-8AD1-AD420E1746F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkasiaUserTest.API", "AkasiaUserTest.API\AkasiaUserTest.API.csproj", "{F87E2B08-0611-4FB4-9E2E-978A26494208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B_HTMLTest", "B_HTMLTest", "{406DC24A-04C9-4B4E-AD01-15141C136280}"
+	ProjectSection(SolutionItems) = preProject
+		AkasiaHTMLTestPage.html = AkasiaHTMLTestPage.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C_SQLQueryTest", "C_SQLQueryTest", "{FE62EB03-69DA-4435-9C42-427EA276102C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\nhir\OneDrive - DHI\Documents\C_AkasiaQueryTest.txt = ..\..\..\Users\nhir\OneDrive - DHI\Documents\C_AkasiaQueryTest.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D_FunctionTest", "D_FunctionTest", "{4AC6C879-9FD2-4B03-88CA-0B8DE38C94E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkasiaFunctionTest", "AkasiaFunctionTest\AkasiaFunctionTest.csproj", "{408C9802-814A-4C39-87E0-DAD69ED833B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D3281C-3128-4D12-8AD1-AD420E1746F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D3281C-3128-4D12-8AD1-AD420E1746F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D3281C-3128-4D12-8AD1-AD420E1746F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D3281C-3128-4D12-8AD1-AD420E1746F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87E2B08-0611-4FB4-9E2E-978A26494208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87E2B08-0611-4FB4-9E2E-978A26494208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87E2B08-0611-4FB4-9E2E-978A26494208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87E2B08-0611-4FB4-9E2E-978A26494208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408C9802-814A-4C39-87E0-DAD69ED833B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408C9802-814A-4C39-87E0-DAD69ED833B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408C9802-814A-4C39-87E0-DAD69ED833B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408C9802-814A-4C39-87E0-DAD69ED833B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66D3281C-3128-4D12-8AD1-AD420E1746F2} = {1F89BBA4-B213-42F9-AC90-7956A03311F3}
+		{F87E2B08-0611-4FB4-9E2E-978A26494208} = {1F89BBA4-B213-42F9-AC90-7956A03311F3}
+		{408C9802-814A-4C39-87E0-DAD69ED833B1} = {4AC6C879-9FD2-4B03-88CA-0B8DE38C94E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60847909-CDB4-4567-9EE6-006A16AF36A7}
+	EndGlobalSection
+EndGlobal
